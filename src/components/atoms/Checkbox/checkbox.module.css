@@ -1,0 +1,10 @@
+.svg {
+  stroke-dasharray: 15;
+  stroke-dashoffset: 15;
+  transition-duration: 150ms;
+  transition-delay: 150ms;
+}
+.checkbox:checked + .svg {
+  stroke-dashoffset: 15;
+  stroke-dashoffset: 0;
+}

@@ -1,0 +1,4 @@
+.bgPattern {
+  background-image: radial-gradient(var(--solid-50) 1px, var(--solid-0) 1px);
+  background-size: 10px 10px;
+}

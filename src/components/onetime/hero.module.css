@@ -1,0 +1,27 @@
+.bgPattern {
+  background-image: radial-gradient(var(--solid-50) 1px, #fff 1px);
+  background-size: 10px 10px;
+}
+.responsivePx {
+  font-size: 4px;
+}
+@media (min-width: 399px) {
+  .responsivePx {
+    font-size: 6px;
+  }
+}
+@media (min-width: 768px) {
+  .responsivePx {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .responsivePx {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1280px) {
+  .responsivePx {
+    font-size: 16px;
+  }
+}
