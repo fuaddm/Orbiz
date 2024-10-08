@@ -1,9 +1,9 @@
-import { Navigation } from '@/components/molecules/Navigation/Navigation';
-import SvgCodesandbox from '@/svg/Codesandbox';
-import Image from 'next/image';
-import React from 'react';
+import { Navigation } from "@/components/molecules/Navigation/Navigation";
+import SvgCodesandbox from "@/svg/Codesandbox";
+import Image from "next/image";
+import React from "react";
 
-import bgWebp from '~/public/bg/bg.webp';
+import bgWebp from "~/public/bg/bg.webp";
 
 const PrivacyHero = () => {
   return (
@@ -15,10 +15,10 @@ const PrivacyHero = () => {
           <div>
             <div className="mb-4 flex w-fit items-center gap-1 rounded-full border border-solid border-solid-700 bg-solid-800 px-3 py-1">
               <SvgCodesandbox className="h-[14px] w-[14px] stroke-solid-0" />
-              <span className="font-regular text-sm text-solid-0">Legal</span>
+              <span className="text-sm font-normal text-solid-0">Legal</span>
             </div>
             <div className="mb-4 text-5xl font-medium leading-[125%] text-solid-0 md:text-[68px]">We take your privacy seriously. Please review our policy below.</div>
-            <div className="font-regular mb-6 text-lg leading-[155%] text-solid-500 md:mb-12">Effective date: 20 January 2024</div>
+            <div className="mb-6 text-lg font-normal leading-[155%] text-solid-500 md:mb-12">Effective date: 20 January 2024</div>
           </div>
         </div>
       </div>

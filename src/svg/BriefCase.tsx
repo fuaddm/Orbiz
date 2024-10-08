@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const BriefCase = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const BriefCase = (props: any) => {
       {...props}
       viewBox="0 0 17 17"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M13.3 5.97314H3.7C3.03726 5.97314 2.5 6.5104 2.5 7.17314V13.1731C2.5 13.8359 3.03726 14.3731 3.7 14.3731H13.3C13.9627 14.3731 14.5 13.8359 14.5 13.1731V7.17314C14.5 6.5104 13.9627 5.97314 13.3 5.97314Z"
         strokeWidth="1.5"

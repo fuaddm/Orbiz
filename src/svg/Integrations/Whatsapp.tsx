@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Whatsapp = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Whatsapp = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -34,7 +35,8 @@ const Whatsapp = (props: any) => {
           y1="7"
           x2="4"
           y2="28"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#5BD066" />
           <stop
             offset="1"

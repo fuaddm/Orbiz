@@ -1,7 +1,7 @@
-import React from 'react';
-import Heading from '@/components/molecules/Heading';
-import SvgFAQ from '@/svg/FAQ';
-import { AccordionItem } from '@/components/atoms/Accordion/AccordionItem';
+import React from "react";
+import Heading from "@/components/molecules/Heading";
+import SvgFAQ from "@/svg/FAQ";
+import { AccordionItem } from "@/components/atoms/Accordion/AccordionItem";
 
 const FAQ = () => {
   return (

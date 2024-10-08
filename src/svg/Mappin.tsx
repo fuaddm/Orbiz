@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Mappin = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Mappin = (props: any) => {
       {...props}
       viewBox="0 0 16 16"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M13.3996 6.80002C13.3996 11 7.99961 14.6 7.99961 14.6C7.99961 14.6 2.59961 11 2.59961 6.80002C2.59961 5.36786 3.16854 3.99434 4.18123 2.98165C5.19393 1.96895 6.56744 1.40002 7.99961 1.40002C9.43178 1.40002 10.8053 1.96895 11.818 2.98165C12.8307 3.99434 13.3996 5.36786 13.3996 6.80002Z"
         strokeWidth="1.2"

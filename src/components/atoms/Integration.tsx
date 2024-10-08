@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React, { FC } from 'react';
+import Image from "next/image";
+import React, { FC } from "react";
 
 type IntegrationProps = {
   imgUrl: string;
@@ -20,7 +20,7 @@ const Integration: FC<IntegrationProps> = ({ imgUrl, title, text }) => {
       </div>
       <div className="px-1">
         <div className="mb-2 text-2xl font-semibold text-solid-900">{title}</div>
-        <div className="font-regular text-lg text-solid-500">{text}</div>
+        <div className="text-lg font-normal text-solid-500">{text}</div>
       </div>
     </div>
   );

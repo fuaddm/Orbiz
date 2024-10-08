@@ -1,6 +1,6 @@
-import { Footer } from '@/components/molecules/Footer/Footer';
-import ContactUsHero from '@/components/organisms/ContactUs/ContactUsHero';
-import React from 'react';
+import { Footer } from "@/components/molecules/Footer/Footer";
+import ContactUsHero from "@/components/organisms/ContactUs/ContactUsHero";
+import React from "react";
 
 const page = () => {
   return (

@@ -1,14 +1,14 @@
-import SvgMail from '@/svg/Mail';
-import SvgMappin from '@/svg/Mappin';
-import SvgPhone from '@/svg/Phone';
-import Link from 'next/link';
-import { handlePrint } from './PrivacyContent.tsx';
+import SvgMail from "@/svg/Mail";
+import SvgMappin from "@/svg/Mappin";
+import SvgPhone from "@/svg/Phone";
+import Link from "next/link";
+import { handlePrint } from "./PrivacyContent.tsx";
 
 At Orbiz, we take your privacy seriously. Please read this Privacy Policy to learn how we treat your personal data. By using or accessing our website, products, services and applications (the “Services”) in any manner, you acknowledge that you accept the practices and policies outlined below, and you hereby consent that we will collect, use and share your information as described in this Privacy Policy.
 
 <br />
 
-You may print a copy of this Privacy Policy by <span className="inline text-primary-100 cursor-pointer underline hover:underline">clicking here.</span>
+You may print a copy of this Privacy Policy by <span onClick={props.handleClick} className="inline text-primary-100 cursor-pointer underline hover:underline">clicking here.</span>
 
 <br />
 
@@ -80,6 +80,7 @@ We’re constantly trying to improve our Services, so we may need to change this
 
 <br />
 
+<div className="contact-info">
 # Contact Information
 
 <br />
@@ -89,7 +90,7 @@ hesitate to contact us at:
 
 <br />
 
-<div className="flex flex-col gap-4">
+<div className="contact-info flex flex-col gap-4">
   <div className="flex items-center gap-3">
     <div className="grid h-8 w-8 place-items-center rounded-full bg-solid-50">
       <SvgMail className="h-4 w-4 stroke-solid-400" />
@@ -108,4 +109,5 @@ hesitate to contact us at:
     </div>
     <div className="text-base font-medium">3517 W. Gray St. Utica, Pennsylvania 57867</div>
   </div>
+</div>
 </div>

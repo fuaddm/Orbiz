@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Instagram = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Instagram = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <rect
         x="2"
         y="2"
@@ -54,7 +55,8 @@ const Instagram = (props: any) => {
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)">
+          gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"
+        >
           <stop stopColor="#B13589" />
           <stop
             offset="0.79309"
@@ -71,7 +73,8 @@ const Instagram = (props: any) => {
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)">
+          gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"
+        >
           <stop stopColor="#E0E8B7" />
           <stop
             offset="0.444662"
@@ -93,7 +96,8 @@ const Instagram = (props: any) => {
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)">
+          gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"
+        >
           <stop
             offset="0.156701"
             stopColor="#406ADC"

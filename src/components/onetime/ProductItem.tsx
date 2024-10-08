@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import React from 'react';
-import macPic from '~/public/images/home/mac.webp';
+import Image from "next/image";
+import React from "react";
+import macPic from "~/public/images/home/mac.webp";
 
 const ProductItem = () => {
   return (
@@ -16,7 +16,7 @@ const ProductItem = () => {
       </div>
       <div className="flex flex-col gap-[0.125em]">
         <div className="whitespace-nowrap text-[0.625em] font-medium leading-[125%] text-solid-900">Macbook Pro 14-inch</div>
-        <div className="font-regular text-[0.625em] text-[#808897]">Gray</div>
+        <div className="text-[0.625em] font-normal text-[#808897]">Gray</div>
         <div className="text-[0.75em] font-medium leading-[125%] text-solid-900">$31,850.00</div>
       </div>
       <div className="w-[3em]"></div>

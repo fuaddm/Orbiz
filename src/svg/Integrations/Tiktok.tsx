@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Tiktok = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Tiktok = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M4.48926 22.757V22.7596L4.57004 22.9785C4.56076 22.953 4.53074 22.8755 4.48926 22.757Z"
         fill="#69C9D0"

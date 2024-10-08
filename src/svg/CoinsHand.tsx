@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const CoinsHand = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const CoinsHand = (props: any) => {
       {...props}
       viewBox="0 0 24 24"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         opacity="0.12"
         d="M13.5295 8.35186C12.9571 8.75995 12.2566 9 11.5 9C9.567 9 8 7.433 8 5.5C8 3.567 9.567 2 11.5 2C12.753 2 13.8522 2.65842 14.4705 3.64814C15.0429 3.24005 15.7434 3 16.5 3C18.433 3 20 4.567 20 6.5C20 8.433 18.433 10 16.5 10C15.247 10 14.1478 9.34158 13.5295 8.35186Z"

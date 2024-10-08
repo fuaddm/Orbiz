@@ -1,5 +1,5 @@
-import React from 'react';
-import SvgStar from '@/svg/Star';
+import React from "react";
+import SvgStar from "@/svg/Star";
 
 type Props = {
   points: 0 | 1;

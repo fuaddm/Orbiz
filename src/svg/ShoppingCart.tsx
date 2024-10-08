@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ShoppingCart = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const ShoppingCart = (props: any) => {
       {...props}
       viewBox="0 0 24 24"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         opacity="0.12"
         d="M18.1359 14H4.75L4.1875 5H21.1062C21.4155 5 21.5702 5 21.683 5.06228C21.7821 5.11697 21.8597 5.20366 21.9031 5.30816C21.9525 5.42715 21.9355 5.58088 21.9013 5.88835L21.3163 11.1534C21.2044 12.16 21.1485 12.6633 20.9163 13.0432C20.7118 13.3777 20.4134 13.6448 20.0582 13.8112C19.6551 14 19.1487 14 18.1359 14Z"

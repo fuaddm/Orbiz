@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const FAQ = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const FAQ = (props: any) => {
       {...props}
       viewBox="0 0 17 17"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M8.5 14.9731C11.8137 14.9731 14.5 12.2869 14.5 8.97314C14.5 5.65944 11.8137 2.97314 8.5 2.97314C5.18629 2.97314 2.5 5.65944 2.5 8.97314C2.5 12.2869 5.18629 14.9731 8.5 14.9731Z"
         strokeWidth="1.5"

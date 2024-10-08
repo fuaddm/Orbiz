@@ -1,12 +1,12 @@
-import React from 'react';
-import Heading from '@/components/molecules/Heading';
-import BriefCase from '@/svg/BriefCase';
-import { UseCaseCard } from '@/components/atoms/Shared/UseCaseCard';
-import SvgSolution from '@/svg/Solution';
-import SvgShoppingBag from '@/svg/ShoppingBag';
-import SvgBuilding from '@/svg/Building';
-import SvgUser from '@/svg/User';
-import SvgCodepen from '@/svg/Codepen';
+import React from "react";
+import Heading from "@/components/molecules/Heading";
+import BriefCase from "@/svg/BriefCase";
+import { UseCaseCard } from "@/components/atoms/Shared/UseCaseCard";
+import SvgSolution from "@/svg/Solution";
+import SvgShoppingBag from "@/svg/ShoppingBag";
+import SvgBuilding from "@/svg/Building";
+import SvgUser from "@/svg/User";
+import SvgCodepen from "@/svg/Codepen";
 
 const UseCase = () => {
   return (

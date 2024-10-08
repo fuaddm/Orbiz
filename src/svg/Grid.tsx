@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Grid = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Grid = (props: any) => {
       {...props}
       viewBox="0 0 16 17"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M13.4 10.1732H9.19998V14.3732H13.4V10.1732Z"
         strokeWidth="1.5"

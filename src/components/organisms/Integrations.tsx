@@ -1,8 +1,8 @@
-import React from 'react';
-import IntegrationApps from '@/components/molecules/IntegrationApps/IntegrationApps';
-import Grid from '@/svg/Grid';
-import { Button } from '@/components/atoms/Button/Button';
-import Heading from '@/components/molecules/Heading';
+import React from "react";
+import IntegrationApps from "@/components/molecules/IntegrationApps/IntegrationApps";
+import Grid from "@/svg/Grid";
+import { Button } from "@/components/atoms/Button/Button";
+import Heading from "@/components/molecules/Heading";
 
 const Integrations = () => {
   return (
@@ -19,7 +19,8 @@ const Integrations = () => {
       <div className="flex w-full justify-center">
         <Button
           variant="primary"
-          classNames="w-full md:w-fit">
+          classNames="w-full md:w-fit"
+        >
           Explore Integrations
         </Button>
       </div>

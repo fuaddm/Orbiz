@@ -1,13 +1,13 @@
-import { Button } from '@/components/atoms/Button/Button';
-import { Navigation } from '@/components/molecules/Navigation/Navigation';
-import SvgArrow from '@/svg/Arrows/Arrow';
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import { Button } from "@/components/atoms/Button/Button";
+import { Navigation } from "@/components/molecules/Navigation/Navigation";
+import SvgArrow from "@/svg/Arrows/Arrow";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-import bgWebp from '~/public/bg/bg.webp';
-import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
-import HeroCard from '@/components/onetime/HeroCard';
+import bgWebp from "~/public/bg/bg.webp";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import HeroCard from "@/components/onetime/HeroCard";
 
 const Hero = () => {
   return (
@@ -18,8 +18,9 @@ const Hero = () => {
         <div className="flex flex-col items-center justify-center gap-4">
           <Link
             href="/"
-            className="group flex cursor-pointer items-center gap-1 rounded-full border border-solid border-solid-700 bg-solid-800 px-3 py-1">
-            <span className="font-regular text-sm text-solid-0">🎉 Announcing our $1.4M Fundraise</span>
+            className="group flex cursor-pointer items-center gap-1 rounded-full border border-solid border-solid-700 bg-solid-800 px-3 py-1"
+          >
+            <span className="text-sm font-normal text-solid-0">🎉 Announcing our $1.4M Fundraise</span>
             <SvgArrow
               width={17}
               height={16}
@@ -32,21 +33,26 @@ const Hero = () => {
             words="Simplifying Payment for Growing Business"
             className="max-w-[900px] text-center text-5xl font-semibold leading-[125%] text-solid-0 md:text-[68px]"
           />
-          <div className="font-regular mb-4 max-w-[700px] text-center text-lg leading-[155%] text-solid-500">
+          <div className="mb-4 max-w-[700px] text-center text-lg font-normal leading-[155%] text-solid-500">
             We offer streamlined payment solutions that simplify transactions and support business growth, focusing on efficiency, reliability, and enhancing customer experience.
           </div>
           <div className="mb-12 flex w-full flex-col gap-4 md:w-min md:flex-row">
-            <Button
-              variant="primary"
-              classNames="w-full whitespace-nowrap md:w-auto">
-              Get Started
-            </Button>
+            <Link href="/register">
+              <Button
+                variant="primary"
+                classNames="w-full whitespace-nowrap md:w-auto"
+              >
+                Get Started
+              </Button>
+            </Link>
             <Link
               href="/contact-us"
-              className="w-full md:w-fit">
+              className="w-full md:w-fit"
+            >
               <Button
                 classNames="w-full whitespace-nowrap border border-solid border-solid-700 bg-solid-800 text-white enabled:active:border-white md:w-auto"
-                variant="secondary">
+                variant="secondary"
+              >
                 Contact us
               </Button>
             </Link>

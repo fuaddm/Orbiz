@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Trello = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Trello = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -20,7 +21,8 @@ const Trello = (props: any) => {
           y1="28"
           x2="16.0076"
           y2="4"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#0052CC" />
           <stop
             offset="0.51698"

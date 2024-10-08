@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Atlassian = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Atlassian = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g id="atlassian">
         <g id="atlassian_2">
           <path
@@ -32,7 +33,8 @@ const Atlassian = (props: any) => {
           y1="15.9006"
           x2="6.09079"
           y2="24.7588"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#0052CC" />
           <stop
             offset="0.923"

@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import React from 'react';
-import womanShoppingPic from '~/public/svg/woman_shopping.svg';
+import Image from "next/image";
+import React from "react";
+import womanShoppingPic from "~/public/svg/woman_shopping.svg";
 
 const ThankYouForOrder = () => {
   return (
@@ -13,7 +13,7 @@ const ThankYouForOrder = () => {
         />
       </div>
       <div className="mb-[0.125em] text-center text-[0.5em] font-semibold text-solid-900">Thank you for the order!</div>
-      <div className="font-regular text-center text-[0.35em] leading-[125%] text-solid-900">
+      <div className="text-center text-[0.35em] font-normal leading-[125%] text-solid-900">
         Hi Angela! Thanks for shopping with us. We’ve received your order No. 13428. We will notify you when we send it.
       </div>
     </div>

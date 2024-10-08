@@ -1,5 +1,5 @@
-import { ChangeEvent, useState } from 'react';
-import { ToggleProps } from './Toggle';
+import { ChangeEvent, useState } from "react";
+import { ToggleProps } from "./Toggle";
 
 export type returnHookType = {
   height: number;
@@ -19,7 +19,7 @@ const useToggle = ({ width = 44, onChange = () => {}, ...props }: ToggleProps) =
     }
   }
 
-  const transform = isChecked ? `translateX(${xDistance}px)` : 'translateX(0px)';
+  const transform = isChecked ? `translateX(${xDistance}px)` : "translateX(0px)";
 
   return {
     height,

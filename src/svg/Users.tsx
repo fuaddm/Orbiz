@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Users = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Users = (props: any) => {
       {...props}
       viewBox="0 0 17 17"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M15.1 14.3731V13.1731C15.0996 12.6413 14.9226 12.1247 14.5968 11.7045C14.271 11.2842 13.8149 10.984 13.3 10.8511"
         strokeWidth="1.5"

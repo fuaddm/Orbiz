@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import iconSetPic from '~/public/images/home/icon_set.webp';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import iconSetPic from "~/public/images/home/icon_set.webp";
 
 const SomeCard = () => {
   return (
@@ -16,7 +16,8 @@ const SomeCard = () => {
       <div className="mb-[0.125em] px-[0.375em] text-[0.625em] font-semibold leading-normal text-solid-900">Uxercon Icon Set</div>
       <Link
         href="/"
-        className="font-regular px-[0.375em] text-[0.625em] leading-normal text-primary-100">
+        className="px-[0.375em] text-[0.625em] font-normal leading-normal text-primary-100"
+      >
         https//:buy.orbiz.com/pay/Tcydio
       </Link>
     </div>

@@ -1,28 +1,28 @@
-import SvgApple from '@/svg/Integrations/Apple';
-import SvgAtlassian from '@/svg/Integrations/Atlassian';
-import SvgBehance from '@/svg/Integrations/Behance';
-import SvgDribbble from '@/svg/Integrations/Dribbble';
-import SvgGoogleDrive from '@/svg/Integrations/GoogleDrive';
-import SvgInstagram from '@/svg/Integrations/Instagram';
-import SvgInvision from '@/svg/Integrations/Invision';
-import SvgMicrosoft from '@/svg/Integrations/Microsoft';
-import SvgSlack from '@/svg/Integrations/Slack';
-import SvgSnapchat from '@/svg/Integrations/Snapchat';
-import SvgSoundCloud from '@/svg/Integrations/SoundCloud';
-import SvgSpotify from '@/svg/Integrations/Spotify';
-import SvgTelegram from '@/svg/Integrations/Telegram';
-import SvgTiktok from '@/svg/Integrations/Tiktok';
-import SvgTrello from '@/svg/Integrations/Trello';
-import SvgWhatsapp from '@/svg/Integrations/Whatsapp';
-import SvgZeplin from '@/svg/Integrations/Zeplin';
-import SvgProcreate from '@/svg/Integrations/Procreate';
-import SvgMastercard from '@/svg/Integrations/Mastercard';
-import SvgSketch from '@/svg/Integrations/Sketch';
+import SvgApple from "@/svg/Integrations/Apple";
+import SvgAtlassian from "@/svg/Integrations/Atlassian";
+import SvgBehance from "@/svg/Integrations/Behance";
+import SvgDribbble from "@/svg/Integrations/Dribbble";
+import SvgGoogleDrive from "@/svg/Integrations/GoogleDrive";
+import SvgInstagram from "@/svg/Integrations/Instagram";
+import SvgInvision from "@/svg/Integrations/Invision";
+import SvgMicrosoft from "@/svg/Integrations/Microsoft";
+import SvgSlack from "@/svg/Integrations/Slack";
+import SvgSnapchat from "@/svg/Integrations/Snapchat";
+import SvgSoundCloud from "@/svg/Integrations/SoundCloud";
+import SvgSpotify from "@/svg/Integrations/Spotify";
+import SvgTelegram from "@/svg/Integrations/Telegram";
+import SvgTiktok from "@/svg/Integrations/Tiktok";
+import SvgTrello from "@/svg/Integrations/Trello";
+import SvgWhatsapp from "@/svg/Integrations/Whatsapp";
+import SvgZeplin from "@/svg/Integrations/Zeplin";
+import SvgProcreate from "@/svg/Integrations/Procreate";
+import SvgMastercard from "@/svg/Integrations/Mastercard";
+import SvgSketch from "@/svg/Integrations/Sketch";
 
-import React from 'react';
-import styles from './style.module.css';
-import Marquee from '@/components/magicui/marquee';
-import IntegrationMiniCard from '@/components/atoms/Shared/IntegrationMiniCard';
+import React from "react";
+import styles from "./style.module.css";
+import Marquee from "@/components/magicui/marquee";
+import IntegrationMiniCard from "@/components/atoms/Shared/IntegrationMiniCard";
 
 const IntegrationApps = () => {
   return (
@@ -32,7 +32,8 @@ const IntegrationApps = () => {
         <Marquee
           reverse
           pauseOnHover
-          className="[--duration:60s]">
+          className="[--duration:60s]"
+        >
           <IntegrationMiniCard>
             <SvgApple className="h-full w-full" />
           </IntegrationMiniCard>
@@ -57,7 +58,8 @@ const IntegrationApps = () => {
         </Marquee>
         <Marquee
           pauseOnHover
-          className="[--duration:80s]">
+          className="[--duration:80s]"
+        >
           <IntegrationMiniCard>
             <SvgTrello className="h-full w-full" />
           </IntegrationMiniCard>
@@ -80,7 +82,8 @@ const IntegrationApps = () => {
         <Marquee
           reverse
           pauseOnHover
-          className="[--duration:60s]">
+          className="[--duration:60s]"
+        >
           <IntegrationMiniCard>
             <SvgMicrosoft className="h-full w-full" />
           </IntegrationMiniCard>

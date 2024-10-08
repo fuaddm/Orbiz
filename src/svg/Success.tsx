@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Success = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Success = (props: any) => {
       {...props}
       viewBox="0 0 20 20"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <rect
         x="0.5"
         y="0.5"

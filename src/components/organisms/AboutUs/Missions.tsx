@@ -1,9 +1,9 @@
-import Tag from '@/components/atoms/Shared/Tag';
-import SvgCodepen from '@/svg/Codepen';
-import SvgZap from '@/svg/Zap';
-import Image from 'next/image';
-import React from 'react';
-import aboutUsPic from '~/public/images/aboutus/aboutUs_result.webp';
+import Tag from "@/components/atoms/Shared/Tag";
+import SvgCodepen from "@/svg/Codepen";
+import SvgZap from "@/svg/Zap";
+import Image from "next/image";
+import React from "react";
+import aboutUsPic from "~/public/images/aboutus/aboutUs_result.webp";
 
 const Missions = () => {
   return (
@@ -11,7 +11,7 @@ const Missions = () => {
       <div className="mb-10 flex flex-col items-start justify-center gap-4 md:mb-20">
         <Tag
           leftSide={<SvgZap className="h-4 w-4 stroke-primary-100" />}
-          text={'Mission + Values'}
+          text={"Mission + Values"}
         />
         <div className="text-[40px] font-medium leading-tight text-solid-900 md:text-[52px]">
           At Orbiz, we’re building the place to pay for today’s businesses.
@@ -32,7 +32,7 @@ const Missions = () => {
               <SvgZap className="h-full w-full stroke-white" />
             </div>
             <div className="mb-3 text-2xl font-semibold text-solid-900">Our Mission</div>
-            <div className="font-regular text-lg text-solid-500">
+            <div className="text-lg font-normal text-solid-500">
               We’re here to solve the complex challenges of selling digital products globally. We believe that selling online should be easy-peasy for everyone.
             </div>
           </div>
@@ -41,7 +41,7 @@ const Missions = () => {
               <SvgCodepen className="h-full w-full stroke-white" />
             </div>
             <div className="mb-3 text-2xl font-semibold text-solid-900">Our Values</div>
-            <div className="font-regular text-lg text-solid-500">
+            <div className="text-lg font-normal text-solid-500">
               We are committed to ownership, craftsmanship, execution, humility, simplicity and the art of listening. We work to lift the companies and creatives we work with by delivering on our
               promises and consistently improving one day at a time.
             </div>

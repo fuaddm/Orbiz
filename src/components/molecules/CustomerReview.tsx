@@ -1,21 +1,22 @@
-import React, { FC } from 'react';
-import { Avatar, AvatarProps } from '@/components/atoms/Avatar/Avatar';
-import { Star } from '@/components/atoms/Star/Star';
-import { cn } from '@/lib/utils';
+import React, { FC } from "react";
+import { Avatar, AvatarProps } from "@/components/atoms/Avatar/Avatar";
+import { Star } from "@/components/atoms/Star/Star";
+import { cn } from "@/lib/utils";
 
 type CustomerProps = AvatarProps & {
   stars: number;
   review: string;
-  variant?: 'primary' | 'secondary';
+  variant?: "primary" | "secondary";
 };
 
-const CustomerReview: FC<CustomerProps> = ({ stars, review, avatarUrl, name, work, variant = 'primary' }) => {
+const CustomerReview: FC<CustomerProps> = ({ stars, review, avatarUrl, name, work, variant = "primary" }) => {
   return (
     <div
       className={cn({
-        'rounded-2xl p-6': true,
-        'bg-white': variant === 'secondary',
-      })}>
+        "rounded-2xl p-6": true,
+        "bg-white": variant === "secondary",
+      })}
+    >
       <div className="mb-2 flex items-center gap-2 md:mb-4">
         <div className="flex flex-nowrap items-center gap-0.5">
           {new Array(5).fill(0).map((item, index) => {

@@ -1,14 +1,14 @@
-import React from 'react';
-import Image from 'next/image';
-import partner1Svg from '~/public/svg/partner1.svg';
-import partner2Svg from '~/public/svg/partner2.svg';
-import partner3Svg from '~/public/svg/partner3.svg';
-import partner4Svg from '~/public/svg/partner4.svg';
-import partner5Svg from '~/public/svg/partner5.svg';
-import partner6Svg from '~/public/svg/partner6.svg';
-import partner7Svg from '~/public/svg/partner7.svg';
-import partner8Svg from '~/public/svg/partner8.svg';
-import Marquee from '@/components/magicui/marquee';
+import React from "react";
+import Image from "next/image";
+import partner1Svg from "~/public/svg/partner1.svg";
+import partner2Svg from "~/public/svg/partner2.svg";
+import partner3Svg from "~/public/svg/partner3.svg";
+import partner4Svg from "~/public/svg/partner4.svg";
+import partner5Svg from "~/public/svg/partner5.svg";
+import partner6Svg from "~/public/svg/partner6.svg";
+import partner7Svg from "~/public/svg/partner7.svg";
+import partner8Svg from "~/public/svg/partner8.svg";
+import Marquee from "@/components/magicui/marquee";
 
 const Partners = () => {
   return (
@@ -43,7 +43,8 @@ const Partners = () => {
       </Marquee>
       <Marquee
         reverse
-        className="[--duration:40s]">
+        className="[--duration:40s]"
+      >
         <Image
           src={partner6Svg}
           alt=""

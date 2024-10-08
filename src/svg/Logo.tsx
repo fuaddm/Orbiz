@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Logo = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Logo = (props: any) => {
       {...props}
       viewBox="0 0 36 36"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g filter="url(#filter0_ddi_2_8349)">
         <rect
           x="3"
@@ -41,7 +42,8 @@ const Logo = (props: any) => {
             x="10"
             y="9"
             width="16"
-            height="16">
+            height="16"
+          >
             <path
               d="M26 9H10V25H26V9Z"
               fill="white"
@@ -75,7 +77,8 @@ const Logo = (props: any) => {
           width="36"
           height="38"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB">
+          colorInterpolationFilters="sRGB"
+        >
           <feFlood
             floodOpacity="0"
             result="BackgroundImageFix"
@@ -159,7 +162,8 @@ const Logo = (props: any) => {
           width="22"
           height="22"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB">
+          colorInterpolationFilters="sRGB"
+        >
           <feFlood
             floodOpacity="0"
             result="BackgroundImageFix"
@@ -219,7 +223,8 @@ const Logo = (props: any) => {
           y1="2"
           x2="18"
           y2="32"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="white" />
           <stop
             offset="1"
@@ -233,7 +238,8 @@ const Logo = (props: any) => {
           y1="2"
           x2="18"
           y2="32"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="white" />
           <stop
             offset="1"
@@ -247,7 +253,8 @@ const Logo = (props: any) => {
           y1="9"
           x2="18"
           y2="25"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="white" />
           <stop
             offset="1"
@@ -261,7 +268,8 @@ const Logo = (props: any) => {
           y1="9"
           x2="18"
           y2="25"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="white" />
           <stop
             offset="1"

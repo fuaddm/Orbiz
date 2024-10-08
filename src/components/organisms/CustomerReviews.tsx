@@ -1,20 +1,20 @@
-'use client';
-import React, { useState } from 'react';
-import Heading from '@/components/molecules/Heading';
-import SvgUsers from '@/svg/Users';
-import { CustomerReview } from '@/components/molecules/CustomerReview';
-import avatarPic1 from '~/public/images/avatars/avatar1_result.webp';
-import avatarPic2 from '~/public/images/avatars/avatar2_result.webp';
-import avatarPic3 from '~/public/images/avatars/avatar3_result.webp';
-import avatarPic4 from '~/public/images/avatars/avatar4_result.webp';
-import avatarPic5 from '~/public/images/avatars/avatar5_result.webp';
-import avatarPic6 from '~/public/images/avatars/avatar6_result.webp';
+"use client";
+import React, { useState } from "react";
+import Heading from "@/components/molecules/Heading";
+import SvgUsers from "@/svg/Users";
+import { CustomerReview } from "@/components/molecules/CustomerReview";
+import avatarPic1 from "~/public/images/avatars/avatar1_result.webp";
+import avatarPic2 from "~/public/images/avatars/avatar2_result.webp";
+import avatarPic3 from "~/public/images/avatars/avatar3_result.webp";
+import avatarPic4 from "~/public/images/avatars/avatar4_result.webp";
+import avatarPic5 from "~/public/images/avatars/avatar5_result.webp";
+import avatarPic6 from "~/public/images/avatars/avatar6_result.webp";
 
 type Props = {
-  variant?: 'primary' | 'secondary';
+  variant?: "primary" | "secondary";
 };
 
-const CustomerReviews = ({ variant = 'primary' }: Props) => {
+const CustomerReviews = ({ variant = "primary" }: Props) => {
   return (
     <div className="container pb-[120px] pt-20">
       <Heading

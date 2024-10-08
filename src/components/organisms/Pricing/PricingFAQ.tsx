@@ -1,7 +1,7 @@
-import { AccordionItem } from '@/components/atoms/Accordion/AccordionItem';
-import Tag from '@/components/atoms/Shared/Tag';
-import SvgFAQ from '@/svg/FAQ';
-import React from 'react';
+import { AccordionItem } from "@/components/atoms/Accordion/AccordionItem";
+import Tag from "@/components/atoms/Shared/Tag";
+import SvgFAQ from "@/svg/FAQ";
+import React from "react";
 
 const PricingFAQ = () => {
   return (

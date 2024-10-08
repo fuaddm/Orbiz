@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Procreate = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Procreate = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M2 12.1333C2 8.58633 2 6.81283 2.69029 5.45806C3.29749 4.26637 4.26637 3.29749 5.45806 2.69029C6.81283 2 8.58633 2 12.1333 2H19.8667C23.4137 2 25.1872 2 26.5419 2.69029C27.7336 3.29749 28.7025 4.26637 29.3097 5.45806C30 6.81283 30 8.58633 30 12.1333V19.8667C30 23.4137 30 25.1872 29.3097 26.5419C28.7025 27.7336 27.7336 28.7025 26.5419 29.3097C25.1872 30 23.4137 30 19.8667 30H12.1333C8.58633 30 6.81283 30 5.45806 29.3097C4.26637 28.7025 3.29749 27.7336 2.69029 26.5419C2 25.1872 2 23.4137 2 19.8667V12.1333Z"
         fill="#242424"
@@ -54,7 +55,8 @@ const Procreate = (props: any) => {
           y1="18.2"
           x2="5.86686"
           y2="26.4667"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#FE5004" />
           <stop
             offset="0.602538"
@@ -71,7 +73,8 @@ const Procreate = (props: any) => {
           y1="18.9"
           x2="12.9002"
           y2="20.1"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#FD3E00" />
           <stop
             offset="1"
@@ -85,7 +88,8 @@ const Procreate = (props: any) => {
           y1="12"
           x2="3.40042"
           y2="26.4667"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#005FC6" />
           <stop
             offset="0.279756"
@@ -114,7 +118,8 @@ const Procreate = (props: any) => {
           y1="14.7667"
           x2="14.9671"
           y2="13.5"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#0061CB" />
           <stop
             offset="1"
@@ -128,7 +133,8 @@ const Procreate = (props: any) => {
           y1="5.00025"
           x2="5.2002"
           y2="26.9336"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#8E55F1" />
           <stop
             offset="0.140795"
@@ -161,7 +167,8 @@ const Procreate = (props: any) => {
           y1="14.1667"
           x2="7.03379"
           y2="22.0667"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#F41A73" />
           <stop
             offset="0.399909"
@@ -186,7 +193,8 @@ const Procreate = (props: any) => {
           y1="16.6"
           x2="18.2338"
           y2="18.2"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#9B0008" />
           <stop
             offset="1"
@@ -200,7 +208,8 @@ const Procreate = (props: any) => {
           y1="6.80001"
           x2="10.8333"
           y2="17.1"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#231283" />
           <stop
             offset="0.362865"
@@ -225,7 +234,8 @@ const Procreate = (props: any) => {
           y1="12"
           x2="23.3667"
           y2="12.9"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop
             stopColor="#3F259D"
             stopOpacity="0"

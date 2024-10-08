@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import React, { FC } from 'react';
-import { Button } from '@/components/atoms/Button/Button';
-import Link from 'next/link';
+import Image from "next/image";
+import React, { FC } from "react";
+import { Button } from "@/components/atoms/Button/Button";
+import Link from "next/link";
 
 type CustomerStoryProps = {
   imgUrl: string;
@@ -27,7 +27,8 @@ const CustomerStory: FC<CustomerStoryProps> = ({ imgUrl, category, title, button
         <Link href={buttonUrl}>
           <Button
             variant="secondary"
-            classNames="w-full">
+            classNames="w-full"
+          >
             Learn More
           </Button>
         </Link>

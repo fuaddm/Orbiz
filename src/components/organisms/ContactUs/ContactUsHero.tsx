@@ -1,15 +1,15 @@
-import { Button } from '@/components/atoms/Button/Button';
-import { Checkbox } from '@/components/atoms/Checkbox/Checkbox';
-import { Input } from '@/components/atoms/Input/Input';
-import { Navigation } from '@/components/molecules/Navigation/Navigation';
-import SvgMail from '@/svg/Mail';
-import SvgMappin from '@/svg/Mappin';
-import SvgPhone from '@/svg/Phone';
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import { Button } from "@/components/atoms/Button/Button";
+import { Checkbox } from "@/components/atoms/Checkbox/Checkbox";
+import { Input } from "@/components/atoms/Input/Input";
+import { Navigation } from "@/components/molecules/Navigation/Navigation";
+import SvgMail from "@/svg/Mail";
+import SvgMappin from "@/svg/Mappin";
+import SvgPhone from "@/svg/Phone";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-import bgWebp from '~/public/bg/bg.webp';
+import bgWebp from "~/public/bg/bg.webp";
 
 const ContactUsHero = () => {
   return (
@@ -38,8 +38,8 @@ const ContactUsHero = () => {
 const LeftSide = () => {
   return (
     <div>
-      <div className="mb-4 pt-0 text-[40px] font-medium leading-[135%] text-solid-0 md:pt-6 md:text-[52px] md:leading-[125%]">Let's Talk</div>
-      <div className="font-regular mb-6 text-lg text-solid-500 md:mb-14">
+      <div className="mb-4 pt-0 text-[40px] font-medium leading-[135%] text-solid-0 md:pt-6 md:text-[52px] md:leading-[125%]">Let&apos;s Talk</div>
+      <div className="mb-6 text-lg font-normal text-solid-500 md:mb-14">
         Vestibulum velit neque placerat accumsan aliquam lectus elementum sed. Ante dolor dignissim lectus in. Lorem risus nibh in sit elementum euismod.
       </div>
       <div className="flex flex-col gap-4">
@@ -74,7 +74,8 @@ const ContactUsForm = () => {
         <div>
           <label
             className="mb-1.5 inline-block text-sm font-medium text-solid-900"
-            htmlFor="fullname">
+            htmlFor="fullname"
+          >
             Full name
           </label>
           <Input
@@ -85,7 +86,8 @@ const ContactUsForm = () => {
         <div>
           <label
             className="mb-1.5 inline-block text-sm font-medium text-solid-900"
-            htmlFor="email">
+            htmlFor="email"
+          >
             Email
           </label>
           <Input
@@ -96,7 +98,8 @@ const ContactUsForm = () => {
         <div>
           <label
             className="mb-1.5 inline-block text-sm font-medium text-solid-900"
-            htmlFor="subject">
+            htmlFor="subject"
+          >
             Subject
           </label>
           <Input
@@ -107,25 +110,29 @@ const ContactUsForm = () => {
         <div className="flex flex-col gap-1.5">
           <label
             className="mb-1.5 inline-block text-sm font-medium text-solid-900"
-            htmlFor="message">
+            htmlFor="message"
+          >
             Message
           </label>
           <textarea
             name=""
             id="message"
             rows={6}
-            className="rounded-[10px] border border-solid border-solid-100 bg-white p-2.5 shadow-[0px_1px_3px_0px_rgba(13,13,18,0.05),0px_1px_2px_0px_rgba(13,13,18,0.04)]"></textarea>
+            className="rounded-[10px] border border-solid border-solid-100 bg-white p-2.5 shadow-[0px_1px_3px_0px_rgba(13,13,18,0.05),0px_1px_2px_0px_rgba(13,13,18,0.04)]"
+          ></textarea>
         </div>
         <label
           htmlFor="agreement"
-          className="flex items-center gap-3">
+          className="flex items-center gap-3"
+        >
           <Checkbox id="agreement" />
-          <span className="font-regular text-sm text-solid-500">
-            For information about how Orbiz handles personal data, see our{' '}
+          <span className="text-sm font-normal text-solid-500">
+            For information about how Orbiz handles personal data, see our{" "}
             <Link
               href="privacy-policy"
               target="_blank"
-              className="inline text-primary-100 underline hover:underline">
+              className="inline text-primary-100 underline hover:underline"
+            >
               Privacy Policy.
             </Link>
           </span>
@@ -133,7 +140,8 @@ const ContactUsForm = () => {
       </div>
       <Button
         variant="primary"
-        classNames="w-full">
+        classNames="w-full"
+      >
         Send Message
       </Button>
     </div>

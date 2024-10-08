@@ -1,12 +1,12 @@
-'use client';
-import React, { FC } from 'react';
-import { Logo } from '@/components/atoms/Logo';
-import { AuthButtons } from './AuthButtons';
-import { Nav } from './Nav';
-import { Burger } from './Burger';
-import { createContext } from 'react';
-import { usePathname } from 'next/navigation';
-import { getIsBgDark } from '@/helper/route';
+"use client";
+import React, { FC } from "react";
+import { Logo } from "@/components/atoms/Logo";
+import { AuthButtons } from "./AuthButtons";
+import { Nav } from "./Nav";
+import { Burger } from "./Burger";
+import { createContext } from "react";
+import { usePathname } from "next/navigation";
+import { getIsBgDark } from "@/helper/route";
 
 export const ThemeContext = createContext(false);
 
@@ -14,7 +14,7 @@ const Navigation: FC = () => {
   const pathname = usePathname();
   let isBgDark: boolean = getIsBgDark(pathname);
 
-  const textColor = isBgDark ? 'text-white' : 'text-solid-900';
+  const textColor = isBgDark ? "text-white" : "text-solid-900";
 
   return (
     <ThemeContext.Provider value={isBgDark}>

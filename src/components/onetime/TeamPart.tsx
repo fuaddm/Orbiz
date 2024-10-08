@@ -1,6 +1,6 @@
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
-import Image from 'next/image';
-import React from 'react';
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import Image from "next/image";
+import React from "react";
 
 type TeamPartProps = {
   imgUrl: string | StaticImport;
@@ -19,7 +19,7 @@ const TeamPart = ({ imgUrl, name, work }: TeamPartProps) => {
         />
       </div>
       <div className="mb-2 text-xl font-medium text-solid-900">{name}</div>
-      <div className="font-regular text-lg text-solid-500">{work}</div>
+      <div className="text-lg font-normal text-solid-500">{work}</div>
     </div>
   );
 };

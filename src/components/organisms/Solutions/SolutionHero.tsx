@@ -1,16 +1,16 @@
-import { Button } from '@/components/atoms/Button/Button';
-import { Navigation } from '@/components/molecules/Navigation/Navigation';
-import SolutionHeroCard from '@/components/onetime/SolutionHeroCard';
-import SvgCodesandbox from '@/svg/Codesandbox';
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import { Button } from "@/components/atoms/Button/Button";
+import { Navigation } from "@/components/molecules/Navigation/Navigation";
+import SolutionHeroCard from "@/components/onetime/SolutionHeroCard";
+import SvgCodesandbox from "@/svg/Codesandbox";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-import bgWebp from '~/public/bg/bg.webp';
-import partner2Svg from '~/public/svg/partner2.svg';
-import partner3Svg from '~/public/svg/partner3.svg';
-import partner4Svg from '~/public/svg/partner4.svg';
-import partner5Svg from '~/public/svg/partner5.svg';
+import bgWebp from "~/public/bg/bg.webp";
+import partner2Svg from "~/public/svg/partner2.svg";
+import partner3Svg from "~/public/svg/partner3.svg";
+import partner4Svg from "~/public/svg/partner4.svg";
+import partner5Svg from "~/public/svg/partner5.svg";
 
 const SolutionHero = () => {
   return (
@@ -22,25 +22,30 @@ const SolutionHero = () => {
           <div className="w-full lg:max-w-[500px] xl:max-w-[700px]">
             <div className="mb-4 flex w-fit items-center gap-1 rounded-full border border-solid border-solid-700 bg-solid-800 px-3 py-1">
               <SvgCodesandbox className="h-[14px] w-[14px] stroke-solid-0" />
-              <span className="font-regular text-sm text-solid-0">SaaS Solution</span>
+              <span className="text-sm font-normal text-solid-0">SaaS Solution</span>
             </div>
             <div className="mb-4 text-5xl font-medium leading-[125%] text-solid-0 md:text-[68px]">Simplifying Payment Built for SaaS</div>
-            <div className="font-regular mb-6 text-lg leading-[155%] text-solid-500 md:mb-12">
+            <div className="mb-6 text-lg font-normal leading-[155%] text-solid-500 md:mb-12">
               Streamline your SaaS billing with flexible, secure payment solutions tailored to fit your business. Scale effortlessly while managing subscriptions, invoices, and payments all in one
               place.
             </div>
             <div className="flex w-full flex-col items-center gap-4 md:mb-14 md:w-fit md:flex-row">
-              <Button
-                variant="primary"
-                classNames="w-full whitespace-nowrap md:w-auto">
-                Get Started
-              </Button>
+              <Link href="/register">
+                <Button
+                  variant="primary"
+                  classNames="w-full whitespace-nowrap md:w-auto"
+                >
+                  Get Started
+                </Button>
+              </Link>
               <Link
                 href="/contact-us"
-                className="w-full md:w-fit">
+                className="w-full md:w-fit"
+              >
                 <Button
                   classNames="w-full whitespace-nowrap border border-solid border-solid-700 bg-solid-800 text-white enabled:active:border-white md:w-auto"
-                  variant="secondary">
+                  variant="secondary"
+                >
                   Contact us
                 </Button>
               </Link>

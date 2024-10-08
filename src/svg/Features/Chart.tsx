@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Chart = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Chart = (props: any) => {
       {...props}
       viewBox="0 0 20 20"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         opacity="0.12"
         d="M12.5 3.83333C12.5 3.36662 12.5 3.13327 12.4092 2.95501C12.3293 2.79821 12.2018 2.67072 12.045 2.59083C11.8667 2.5 11.6334 2.5 11.1667 2.5L8.83333 2.5C8.36662 2.5 8.13327 2.5 7.95501 2.59083C7.79821 2.67072 7.67072 2.79821 7.59083 2.95501C7.5 3.13327 7.5 3.36662 7.5 3.83333L7.5 17.5H12.5L12.5 3.83333Z"

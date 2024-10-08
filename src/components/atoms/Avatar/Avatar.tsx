@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
+import React from "react";
+import Image from "next/image";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export type AvatarProps = {
   avatarUrl: string | StaticImport;
@@ -20,7 +20,7 @@ const Avatar = ({ avatarUrl, name, work }: AvatarProps) => {
       </div>
       <div className="flex h-fit flex-col gap-0.5">
         <span className="text-sm font-semibold text-[#0E1012] md:text-base">{name}</span>
-        <span className="font-regular text-xs text-[#566171] md:text-sm">{work}</span>
+        <span className="text-xs font-normal text-[#566171] md:text-sm">{work}</span>
       </div>
     </div>
   );

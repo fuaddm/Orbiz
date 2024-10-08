@@ -1,16 +1,16 @@
-import { Button } from '@/components/atoms/Button/Button';
-import { Navigation } from '@/components/molecules/Navigation/Navigation';
-import FeatureHeroCard from '@/components/onetime/FeatureHeroCard';
-import FeatureHeroItem from '@/components/onetime/FeatureHeroItem';
-import SvgBell from '@/svg/Features/Bell';
-import SvgChart from '@/svg/Features/Chart';
-import SvgServer from '@/svg/Features/Server';
-import SvgTextPaper from '@/svg/TextPaper';
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import { Button } from "@/components/atoms/Button/Button";
+import { Navigation } from "@/components/molecules/Navigation/Navigation";
+import FeatureHeroCard from "@/components/onetime/FeatureHeroCard";
+import FeatureHeroItem from "@/components/onetime/FeatureHeroItem";
+import SvgBell from "@/svg/Features/Bell";
+import SvgChart from "@/svg/Features/Chart";
+import SvgServer from "@/svg/Features/Server";
+import SvgTextPaper from "@/svg/TextPaper";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-import bgWebp from '~/public/bg/bg.webp';
+import bgWebp from "~/public/bg/bg.webp";
 
 const FeaturesHero = () => {
   return (
@@ -23,24 +23,29 @@ const FeaturesHero = () => {
             <div className="lg:max-w-[500px] xl:max-w-[700px]">
               <div className="mb-4 flex w-fit items-center gap-1 rounded-full border border-solid border-solid-700 bg-solid-800 px-3 py-1">
                 <SvgTextPaper className="h-[14px] w-[14px] stroke-solid-0" />
-                <span className="font-regular text-sm text-solid-0">Invoice Management</span>
+                <span className="text-sm font-normal text-solid-0">Invoice Management</span>
               </div>
               <div className="mb-4 text-5xl font-medium leading-[125%] text-solid-0 md:text-[68px]">Easily Manage Your Invoice with Orbiz</div>
-              <div className="font-regular mb-6 text-lg leading-[155%] text-solid-500 md:mb-12">
+              <div className="mb-6 text-lg font-normal leading-[155%] text-solid-500 md:mb-12">
                 Get paid faster with Orbiz invoicing tool and save precious time on your supplier invoice management.
               </div>
               <div className="flex w-full flex-col items-center gap-4 md:w-fit md:flex-row">
-                <Button
-                  variant="primary"
-                  classNames="w-full whitespace-nowrap md:w-auto">
-                  Get Started
-                </Button>
+                <Link href="/register">
+                  <Button
+                    variant="primary"
+                    classNames="w-full whitespace-nowrap md:w-auto"
+                  >
+                    Get Started
+                  </Button>
+                </Link>
                 <Link
                   href="/contact-us"
-                  className="w-full md:w-fit">
+                  className="w-full md:w-fit"
+                >
                   <Button
                     classNames="w-full whitespace-nowrap border border-solid border-solid-700 bg-solid-800 text-white enabled:active:border-white md:w-auto"
-                    variant="secondary">
+                    variant="secondary"
+                  >
                     Contact us
                   </Button>
                 </Link>

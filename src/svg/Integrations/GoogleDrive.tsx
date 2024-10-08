@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const GoogleDrive = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const GoogleDrive = (props: any) => {
       {...props}
       viewBox="0 0 32 33"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g filter="url(#filter0_d_144_64509)">
         <path
           d="M2 11.9556C2 8.47078 2 6.7284 2.67818 5.39739C3.27473 4.22661 4.22661 3.27473 5.39739 2.67818C6.7284 2 8.47078 2 11.9556 2H20.0444C23.5292 2 25.2716 2 26.6026 2.67818C27.7734 3.27473 28.7253 4.22661 29.3218 5.39739C30 6.7284 30 8.47078 30 11.9556V20.0444C30 23.5292 30 25.2716 29.3218 26.6026C28.7253 27.7734 27.7734 28.7253 26.6026 29.3218C25.2716 30 23.5292 30 20.0444 30H11.9556C8.47078 30 6.7284 30 5.39739 29.3218C4.22661 28.7253 3.27473 27.7734 2.67818 26.6026C2 25.2716 2 23.5292 2 20.0444V11.9556Z"
@@ -45,7 +46,8 @@ const GoogleDrive = (props: any) => {
           width="36"
           height="36"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB">
+          colorInterpolationFilters="sRGB"
+        >
           <feFlood
             floodOpacity="0"
             result="BackgroundImageFix"

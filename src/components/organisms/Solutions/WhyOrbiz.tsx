@@ -1,11 +1,11 @@
-import React from 'react';
-import Heading from '@/components/molecules/Heading';
-import BriefCase from '@/svg/BriefCase';
-import SvgBuilding from '@/svg/Building';
-import SvgZap from '@/svg/Zap';
-import WhyOrbizCard from '@/components/atoms/Shared/WhyOrbizCard';
-import SvgCreditcard from '@/svg/Creditcard';
-import SvgRocket from '@/svg/Rocket';
+import React from "react";
+import Heading from "@/components/molecules/Heading";
+import BriefCase from "@/svg/BriefCase";
+import SvgBuilding from "@/svg/Building";
+import SvgZap from "@/svg/Zap";
+import WhyOrbizCard from "@/components/atoms/Shared/WhyOrbizCard";
+import SvgCreditcard from "@/svg/Creditcard";
+import SvgRocket from "@/svg/Rocket";
 
 const WhyOrbiz = () => {
   return (

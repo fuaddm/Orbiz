@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Telegram = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Telegram = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <circle
         cx="16"
         cy="16"
@@ -24,7 +25,8 @@ const Telegram = (props: any) => {
           y1="2"
           x2="16"
           y2="30"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#37BBFE" />
           <stop
             offset="1"

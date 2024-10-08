@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Payments = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Payments = (props: any) => {
       {...props}
       viewBox="0 0 24 24"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         opacity="0.12"
         d="M16.5 13.5C19.5376 13.5 22 12.6046 22 11.5V19C22 20.1046 19.5376 21 16.5 21C13.4624 21 11 20.1046 11 19V11.5C11 12.6046 13.4624 13.5 16.5 13.5Z"

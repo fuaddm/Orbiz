@@ -1,7 +1,7 @@
-import { Button } from '@/components/atoms/Button/Button';
-import Link from 'next/link';
-import React, { useContext } from 'react';
-import { ThemeContext } from './Navigation';
+import { Button } from "@/components/atoms/Button/Button";
+import Link from "next/link";
+import React, { useContext } from "react";
+import { ThemeContext } from "./Navigation";
 
 const AuthButtons = () => {
   const isBgDark = useContext(ThemeContext);
@@ -12,7 +12,8 @@ const AuthButtons = () => {
         <Link href="/login">
           <Button
             classNames="whitespace-nowrap px-6 py-2"
-            variant="secondary">
+            variant="secondary"
+          >
             Login
           </Button>
         </Link>
@@ -21,7 +22,8 @@ const AuthButtons = () => {
         <Link href="/login">
           <Button
             classNames="whitespace-nowrap border border-solid border-solid-700 bg-solid-800 px-6 py-2 text-white enabled:active:border-white"
-            variant="secondary">
+            variant="secondary"
+          >
             Login
           </Button>
         </Link>
@@ -29,7 +31,8 @@ const AuthButtons = () => {
       <Link href="/register">
         <Button
           classNames="whitespace-nowrap px-4 py-2"
-          variant="primary">
+          variant="primary"
+        >
           Get Started
         </Button>
       </Link>

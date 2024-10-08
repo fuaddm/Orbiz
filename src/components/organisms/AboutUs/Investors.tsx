@@ -1,19 +1,19 @@
-import Marquee from '@/components/magicui/marquee';
-import Heading from '@/components/molecules/Heading';
-import Grid from '@/svg/Grid';
-import Image from 'next/image';
-import React from 'react';
+import Marquee from "@/components/magicui/marquee";
+import Heading from "@/components/molecules/Heading";
+import Grid from "@/svg/Grid";
+import Image from "next/image";
+import React from "react";
 
-import partner1Svg from '~/public/svg/partner1.svg';
-import partner2Svg from '~/public/svg/partner2.svg';
-import partner3Svg from '~/public/svg/partner3.svg';
-import partner4Svg from '~/public/svg/partner4.svg';
-import partner5Svg from '~/public/svg/partner5.svg';
+import partner1Svg from "~/public/svg/partner1.svg";
+import partner2Svg from "~/public/svg/partner2.svg";
+import partner3Svg from "~/public/svg/partner3.svg";
+import partner4Svg from "~/public/svg/partner4.svg";
+import partner5Svg from "~/public/svg/partner5.svg";
 
-import investor1Pic from '~/public/images/aboutus/investor1_result.webp';
-import investor2Pic from '~/public/images/aboutus/investor2_result.webp';
-import investor3Pic from '~/public/images/aboutus/investor3_result.webp';
-import investor4Pic from '~/public/images/aboutus/investor4_result.webp';
+import investor1Pic from "~/public/images/aboutus/investor1_result.webp";
+import investor2Pic from "~/public/images/aboutus/investor2_result.webp";
+import investor3Pic from "~/public/images/aboutus/investor3_result.webp";
+import investor4Pic from "~/public/images/aboutus/investor4_result.webp";
 
 const Investors = () => {
   return (

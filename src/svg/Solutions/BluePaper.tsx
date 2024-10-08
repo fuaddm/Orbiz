@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const BluePaper = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const BluePaper = (props: any) => {
       {...props}
       viewBox="0 0 86 83"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <rect
         x="5"
         y="1"
@@ -143,7 +144,8 @@ const BluePaper = (props: any) => {
           width="60.8001"
           height="73.0667"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB">
+          colorInterpolationFilters="sRGB"
+        >
           <feFlood
             floodOpacity="0"
             result="BackgroundImageFix"
@@ -179,7 +181,8 @@ const BluePaper = (props: any) => {
           width="51.0936"
           height="51.0934"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB">
+          colorInterpolationFilters="sRGB"
+        >
           <feFlood
             floodOpacity="0"
             result="BackgroundImageFix"

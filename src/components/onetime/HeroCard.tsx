@@ -1,25 +1,25 @@
-'use client';
-import React, { useEffect, useState } from 'react';
-import styles from './hero.module.css';
-import FormCard from '@/components/onetime/FormCard';
-import ThankYouForOrder from '@/components/onetime/ThankYouForOrder';
-import ProductItem from '@/components/onetime/ProductItem';
-import chartPic from '~/public/images/home/chart.webp';
-import Image from 'next/image';
-import IconItem from './IconItem';
-import SvgPaper from '@/svg/Paper';
-import SvgPayments from '@/svg/Payments';
-import SvgShoppingCart from '@/svg/ShoppingCart';
-import SvgCoinsHand from '@/svg/CoinsHand';
-import PriceCard from './PriceCard';
-import SomeCard from './SomeCard';
+"use client";
+import React, { useEffect, useState } from "react";
+import styles from "./hero.module.css";
+import FormCard from "@/components/onetime/FormCard";
+import ThankYouForOrder from "@/components/onetime/ThankYouForOrder";
+import ProductItem from "@/components/onetime/ProductItem";
+import chartPic from "~/public/images/home/chart.webp";
+import Image from "next/image";
+import IconItem from "./IconItem";
+import SvgPaper from "@/svg/Paper";
+import SvgPayments from "@/svg/Payments";
+import SvgShoppingCart from "@/svg/ShoppingCart";
+import SvgCoinsHand from "@/svg/CoinsHand";
+import PriceCard from "./PriceCard";
+import SomeCard from "./SomeCard";
 
 const HeroCard = () => {
   const [cords, setCords] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     if (window.innerWidth > 768) {
-      window.addEventListener('mousemove', (e) => {
+      window.addEventListener("mousemove", (e) => {
         let x = (window.innerWidth / 2 - e.clientX) / 40;
         let y = (window.innerHeight / 2 - e.clientY) / 40;
         setCords({ x, y });
@@ -40,8 +40,9 @@ const HeroCard = () => {
               <div className="flex flex-col justify-around gap-[1em] ps-[2em]">
                 <div className="flex h-full w-full flex-col justify-around">
                   <div
-                    style={{ transform: `translate(${cords['x'] / 20}em,${cords['y'] / 20}em)` }}
-                    className="grid w-fit grid-cols-[min-content_min-content] gap-[0.8em]">
+                    style={{ transform: `translate(${cords["x"] / 20}em,${cords["y"] / 20}em)` }}
+                    className="grid w-fit grid-cols-[min-content_min-content] gap-[0.8em]"
+                  >
                     <IconItem word="Invoice">
                       <SvgPaper className="h-full w-full stroke-yellow-100" />
                     </IconItem>
@@ -60,13 +61,15 @@ const HeroCard = () => {
                     </div>
                   </div>
                   <div
-                    style={{ transform: `translate(${cords['x'] / 10 - 5}em,${cords['y'] / 10}em)` }}
-                    className="-translate-x-[5em]">
+                    style={{ transform: `translate(${cords["x"] / 10 - 5}em,${cords["y"] / 10}em)` }}
+                    className="-translate-x-[5em]"
+                  >
                     <PriceCard />
                   </div>
                   <div
                     className=""
-                    style={{ transform: `translate(${cords['x'] / 24}em,${cords['y'] / 24}em)` }}>
+                    style={{ transform: `translate(${cords["x"] / 24}em,${cords["y"] / 24}em)` }}
+                  >
                     <SomeCard />
                   </div>
                 </div>
@@ -74,8 +77,9 @@ const HeroCard = () => {
               <FormCard />
               <div className="flex flex-col justify-around gap-[1em]">
                 <div
-                  style={{ transform: `translate(${cords['x'] / 16}em,${cords['y'] / 16}em)` }}
-                  className="h-[6.5em] w-[13.5em]">
+                  style={{ transform: `translate(${cords["x"] / 16}em,${cords["y"] / 16}em)` }}
+                  className="h-[6.5em] w-[13.5em]"
+                >
                   <Image
                     src={chartPic}
                     className="h-full w-full object-contain"
@@ -83,13 +87,15 @@ const HeroCard = () => {
                   />
                 </div>
                 <div
-                  style={{ transform: `translate(${cords['x'] / 24}em,${cords['y'] / 24}em)` }}
-                  className="">
+                  style={{ transform: `translate(${cords["x"] / 24}em,${cords["y"] / 24}em)` }}
+                  className=""
+                >
                   <ThankYouForOrder />
                 </div>
                 <div
-                  style={{ transform: `translate(calc(${cords['x'] / 8}em + 4em),${cords['y'] / 8}em)` }}
-                  className="">
+                  style={{ transform: `translate(calc(${cords["x"] / 8}em + 4em),${cords["y"] / 8}em)` }}
+                  className=""
+                >
                   <ProductItem />
                 </div>
               </div>

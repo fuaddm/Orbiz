@@ -1,5 +1,5 @@
-import BluePaper from '@/svg/Solutions/BluePaper';
-import React from 'react';
+import BluePaper from "@/svg/Solutions/BluePaper";
+import React from "react";
 
 const SolutionHeroCard = () => {
   return (
@@ -11,22 +11,22 @@ const SolutionHeroCard = () => {
             <BluePaper className="h-[4em] w-[4em]" />
           </div>
           <div className="mb-[1.5em] flex flex-col items-center justify-center gap-[0.25em]">
-            <div className="font-regular text-[0.75em] leading-normal text-solid-500">Invoice paid</div>
+            <div className="text-[0.75em] font-normal leading-normal text-solid-500">Invoice paid</div>
             <div className="text-[1.5em] font-medium leading-normal text-solid-900">$156.99</div>
-            <div className="font-regular text-[0.75em] leading-normal text-solid-500 underline">View invoice detail</div>
+            <div className="text-[0.75em] font-normal leading-normal text-solid-500 underline">View invoice detail</div>
           </div>
           <div className="mb-[2em] flex flex-col gap-[1em] bg-solid-0 p-[0.75em] md:w-[18.75em]">
             <div className="flex items-center justify-between">
-              <div className="font-regular text-[0.75em] leading-normal text-solid-400">Invoice number</div>
-              <div className="font-regular text-[0.75em] leading-normal text-solid-900">#526589</div>
+              <div className="text-[0.75em] font-normal leading-normal text-solid-400">Invoice number</div>
+              <div className="text-[0.75em] font-normal leading-normal text-solid-900">#526589</div>
             </div>
             <div className="flex items-center justify-between">
-              <div className="font-regular text-[0.75em] leading-normal text-solid-400">Payment date</div>
-              <div className="font-regular text-[0.75em] leading-normal text-solid-900">11 Jan 2024, 11:00 AM</div>
+              <div className="text-[0.75em] font-normal leading-normal text-solid-400">Payment date</div>
+              <div className="text-[0.75em] font-normal leading-normal text-solid-900">11 Jan 2024, 11:00 AM</div>
             </div>
             <div className="flex items-center justify-between">
-              <div className="font-regular text-[0.75em] leading-normal text-solid-400">Payment method</div>
-              <div className="font-regular text-[0.75em] leading-normal text-solid-900">**** 6787</div>
+              <div className="text-[0.75em] font-normal leading-normal text-solid-400">Payment method</div>
+              <div className="text-[0.75em] font-normal leading-normal text-solid-900">**** 6787</div>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-[0.75em]">

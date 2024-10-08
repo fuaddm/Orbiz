@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const MiniPaper = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const MiniPaper = (props: any) => {
       {...props}
       viewBox="0 0 67 65"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <rect
         x="4"
         y="1"
@@ -113,7 +114,8 @@ const MiniPaper = (props: any) => {
           width="53.1999"
           height="63.9333"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB">
+          colorInterpolationFilters="sRGB"
+        >
           <feFlood
             floodOpacity="0"
             result="BackgroundImageFix"

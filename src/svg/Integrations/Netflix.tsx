@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Netflix = (props: any) => {
   return (
@@ -6,7 +6,8 @@ const Netflix = (props: any) => {
       {...props}
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M18.559 2.08264L18.5462 8.24318L18.5334 14.4037L17.9454 12.9736V12.9699L17.1826 26.6845C17.9326 28.5033 18.3332 29.475 18.3374 29.4787C18.3417 29.4824 18.7678 29.5044 19.2834 29.5264C20.8431 29.5924 22.7777 29.7354 24.2478 29.8931C24.5887 29.9297 24.8785 29.9481 24.8998 29.9334C24.9211 29.9187 24.9254 23.6482 24.9211 15.9952L24.9083 2.08264H18.559Z"
         fill="url(#paint0_linear_144_64257)"
@@ -26,7 +27,8 @@ const Netflix = (props: any) => {
           y1="22.9104"
           x2="17.6225"
           y2="27.3733"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#B20610" />
           <stop
             offset="0.255959"
@@ -43,7 +45,8 @@ const Netflix = (props: any) => {
           y1="8.17115"
           x2="14.9828"
           y2="3.40039"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#B20610" />
           <stop
             offset="0.255959"

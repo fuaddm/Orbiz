@@ -1,1 +1,1 @@
-export const navs = ['features', 'solutions', 'about-us', 'pricing'];
+export const navs = ["features", "solutions", "about-us", "pricing"];

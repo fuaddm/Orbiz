@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from "react";
 
 type Props = {
   title: string;
@@ -13,7 +13,7 @@ const FeatureHeroItem = ({ title, subtext, icon }: Props) => {
         <div className="h-5 w-5">{icon}</div>
       </div>
       <div className="mb-2 text-lg font-medium text-solid-0">{title}</div>
-      <div className="font-regular text-base text-solid-500">{subtext}</div>
+      <div className="text-base font-normal text-solid-500">{subtext}</div>
     </div>
   );
 };
