@@ -30,7 +30,10 @@ const FeaturesHero = () => {
                 Get paid faster with Orbiz invoicing tool and save precious time on your supplier invoice management.
               </div>
               <div className="flex w-full flex-col items-center gap-4 md:w-fit md:flex-row">
-                <Link href="/register">
+                <Link
+                  href="/register"
+                  className="w-full md:w-auto"
+                >
                   <Button
                     variant="primary"
                     classNames="w-full whitespace-nowrap md:w-auto"
@@ -43,7 +46,7 @@ const FeaturesHero = () => {
                   className="w-full md:w-fit"
                 >
                   <Button
-                    classNames="w-full whitespace-nowrap border border-solid border-solid-700 bg-solid-800 text-white enabled:active:border-white md:w-auto"
+                    classNames="w-full whitespace-nowrap border border-solid border-solid-700 bg-solid-800 text-white enabled:active:border-solid-600 md:w-auto"
                     variant="secondary"
                   >
                     Contact us

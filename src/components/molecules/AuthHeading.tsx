@@ -17,7 +17,7 @@ const AuthHeading = () => {
           <Link href="/contact-us">
             <Button
               variant="secondary"
-              classNames="flex items-center gap-1 rounded-xl p-2 text-sm font-normal text-solid-500 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.06)]"
+              classNames="flex items-center gap-1 rounded-xl p-2 text-sm font-normal text-solid-500 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.06)] enabled:active:border-solid-200"
             >
               <Headphone className="h-5 w-5 fill-solid-500" />
               <span>Contact Us</span>

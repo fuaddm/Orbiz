@@ -37,7 +37,10 @@ const Hero = () => {
             We offer streamlined payment solutions that simplify transactions and support business growth, focusing on efficiency, reliability, and enhancing customer experience.
           </div>
           <div className="mb-12 flex w-full flex-col gap-4 md:w-min md:flex-row">
-            <Link href="/register">
+            <Link
+              href="/register"
+              className="w-full md:w-auto"
+            >
               <Button
                 variant="primary"
                 classNames="w-full whitespace-nowrap md:w-auto"
@@ -50,7 +53,7 @@ const Hero = () => {
               className="w-full md:w-fit"
             >
               <Button
-                classNames="w-full whitespace-nowrap border border-solid border-solid-700 bg-solid-800 text-white enabled:active:border-white md:w-auto"
+                classNames="w-full whitespace-nowrap border border-solid border-solid-700 bg-solid-800 text-white enabled:active:border-solid-600 md:w-auto"
                 variant="secondary"
               >
                 Contact us

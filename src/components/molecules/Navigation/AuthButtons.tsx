@@ -21,7 +21,7 @@ const AuthButtons = () => {
       {isBgDark && (
         <Link href="/login">
           <Button
-            classNames="whitespace-nowrap border border-solid border-solid-700 bg-solid-800 px-6 py-2 text-white enabled:active:border-white"
+            classNames="whitespace-nowrap border border-solid border-solid-700 bg-solid-800 px-6 py-2 text-white enabled:active:border-solid-600"
             variant="secondary"
           >
             Login
