@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div className="hidden h-fit w-fit flex-nowrap items-center gap-2 lg:flex">
       <Link
-        className="px-2 py-1 text-base font-semibold hover:underline"
+        className="px-2 py-1 text-base font-semibold transition-opacity hover:opacity-60"
         href={`/`}
       >
         Home
@@ -21,7 +21,7 @@ const Nav = () => {
         return (
           <Link
             key={nav}
-            className="px-2 py-1 text-base font-semibold hover:underline"
+            className="px-2 py-1 text-base font-semibold transition-opacity hover:opacity-60"
             href={`/${nav}`}
           >
             {navText}

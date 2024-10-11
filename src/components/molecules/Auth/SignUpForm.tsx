@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import { Input } from "@/components/atoms/Input/Input";
 import MainCircle from "@/components/onetime/Auth/MainCircle";
 import { Button } from "@/components/atoms/Button/Button";
@@ -12,14 +12,25 @@ import { Checkbox } from "@/components/atoms/Checkbox/Checkbox";
 import Link from "next/link";
 import Codesandbox from "@/svg/Codesandbox";
 import toast from "react-hot-toast";
+import { useInView } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 const SignUpForm = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   function handleClick() {
     toast.success("This is a demo site");
   }
 
   return (
-    <div className="flex w-full max-w-[400px] flex-col items-center">
+    <div
+      ref={ref}
+      className={cn({
+        "flex w-full max-w-[400px] translate-y-4 flex-col items-center opacity-0 transition-all duration-300 ease-in-out": true,
+        "translate-y-0 opacity-100": isInView,
+      })}
+    >
       <MainCircle classNames="mb-4">
         <Codesandbox className="h-full w-full stroke-white" />
       </MainCircle>

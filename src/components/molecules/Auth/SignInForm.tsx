@@ -17,7 +17,7 @@ import { cn } from "@/lib/utils";
 
 const SignInForm = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   function handleClick() {
     toast.success("This is a demo site");
